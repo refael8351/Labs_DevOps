@@ -10,9 +10,10 @@ print ("\nResulte Of Your Order:\n--------------" + "\nTomato: " + str(Tomato) +
 # sum2=Coucamber*2
 # sum3=Cola*5
 # sum4=Chikens*20
+# summry=sum1+sum2+sum3+sum4
 sum=(Tomato*2) + (Coucamber*3) + (Cola*5) + (Chikens*20)
 
 print ("\nyou need to pay Without Tax: " + str(sum) + " NIS")
 ####################################
-#print ("\nyou need to pay With Tax: " + str(sum*1.17) + " NIS")
+print ("\nyou need to pay With Tax: " + str(sum*1.17) + " NIS")
 print ("\nyou need to pay With Tax: " + str("%.2f" % (sum*1.17)) + " NIS")
