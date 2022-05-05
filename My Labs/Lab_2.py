@@ -4,11 +4,11 @@ Menu:
 2. check fibo
 3. randint numbers until we get 12 or we count 10 times
 '''
+
 from random import randint
 from time import sleep
-
 while(True):
-    choice=input("Menu:\n--------------\n1.Zero To 100\n2.Fibo\n3.randint_Lucky_Num 12 or count 10 Games\n")
+    choice=input("Menu:\n--------------\n1.1 To 100\n2.Fibo\n3.randint_Lucky_Num 12 or count 10 Games\n")
     if(choice == "1"):
         for i in range(1,101):
             print(i)
