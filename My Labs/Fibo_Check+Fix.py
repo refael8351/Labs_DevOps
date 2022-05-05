@@ -1,9 +1,9 @@
 from time import sleep
-fibo=[1,2,3,8]
-
-for i in range(2,len(fibo)):
-    if(fibo[i])!=(fibo[i-1])+(fibo[i-2]):
-        if(fibo[i])>(fibo[i-1])+(fibo[i-2]):
+fibo = []
+for i in range(7):
+    fibo.append(int(input("Enter a Namber:")))
+    if(fibo[i]) != (fibo[i-1])+(fibo[i-2]):
+        if(fibo[i]) > (fibo[i-1])+(fibo[i-2]) or (fibo[i]) < (fibo[i-1]+fibo[i-2]):
             x = (fibo[i-1])+(fibo[i-2])
             y = (fibo[i])
             fibo[i] = x
