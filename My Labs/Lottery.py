@@ -6,14 +6,23 @@ money = int(input("How Much Monney Do You Have ?? "))
 turns = (money//3)
 print("You Have " + str(turns) + " Turns\nYour Change is: " + str(money % 3) + " ILS")
 price = 0
+num1 = 0
+num2 = 0
+num3 = 0
+num4 = 0
+num5 = 0
+num6 = 0
 for i in range(turns):
+
     list = []
+
     num1 = list.append(int(input("Enter a number Between 1 To 37 Only :\n")))
     num2 = list.append(int(input("Enter a number Between 1 To 37 Only :\n")))
     num3 = list.append(int(input("Enter a number Between 1 To 37 Only :\n")))
     num4 = list.append(int(input("Enter a number Between 1 To 37 Only :\n")))
     num5 = list.append(int(input("Enter a number Between 1 To 37 Only :\n")))
     num6 = list.append(int(input("Enter a number Between 1 To 37 Only :\n")))
+
     if num1 == (num2 or num3 or num4 or num5 or num6) or num2 == (num3 or num4 or num5 or num6) or num3 == (num4 or num5 or num6) or num4 == (num5 or num6) or (num5 == num6):
         print("Do Not Repeated Numbers Please Enter Again...\n")
         num1 = list.append(int(input("Enter a number Between 1 To 37 Only :\n")))

@@ -10,5 +10,3 @@ for i in range(torns):
     print("Round Number: " + str(i+1) + "\n-------------------------------\n")
     sleep(1)
 
-
-
